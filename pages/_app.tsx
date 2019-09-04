@@ -7,7 +7,7 @@ import 'modern-normalize/modern-normalize.css'
 
 const styles = {
 	root: css`
-		/* Add root styles here */
+		padding-top: 84px;
 	`,
 }
 

@@ -44,6 +44,8 @@
     "typescript": "^3.4.5"
   },
   "dependencies": {
+    "@types/classnames": "^2.2.9",
+    "classnames": "^2.2.6",
     "next": "^8.1.0"
   },
   "husky": {
