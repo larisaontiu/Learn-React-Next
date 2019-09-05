@@ -1,5 +1,5 @@
 {
-  "watch": ["server"],
+  "watch": ["server", ".babelrc", "next.config.js", "tsconfig.json", "tsconfig.server.json"],
   "exec": "ts-node --project tsconfig.server.json server/index.ts",
   "ext": "js ts"
 }

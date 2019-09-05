@@ -23,6 +23,7 @@
 	"include": [
 		"next-env.d.ts",
 		"modules.d.ts",
+		"linaria.d.ts",
 		"**/*.ts",
 		"**/*.tsx"
 	]
