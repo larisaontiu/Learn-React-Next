@@ -68,7 +68,5 @@ export default () => (
 		</ProjectList>
 
 		<Footer></Footer>
-
-		{/* <CssInJs /> */}
 	</div>
 )

@@ -1,3 +1,4 @@
+import React from 'react'
 import NextDocument, { Html, Head, Main, NextScript, NextDocumentContext } from 'next/document'
 
 class Document extends NextDocument {

@@ -2,20 +2,6 @@ import React, { FC, ReactNode } from 'react'
 import { css } from 'linaria'
 import Button, { buttonClassName, bannerButtonClassName } from './Button'
 
-/*
-.${buttonClassName}.${bannerButtonClassName} {
-        padding: 14px 30px;
-        display: inline-block;
-        background-color: #F2C335;
-        color:white;
-        margin: 40px 0;
-
-        &:hover {
-            background-color: black;
-        }
-    }
-    */
-
 const projectListClassName = css`
 	padding-top: 100px;
 	text-align: center;
@@ -25,6 +11,18 @@ const projectListClassName = css`
 		font-size: 28px;
 		margin: 0px;
 		padding-top: 8px;
+	}
+
+	.${buttonClassName}.${bannerButtonClassName} {
+		padding: 14px 30px;
+		display: inline-block;
+		background-color: #f2c335;
+		color: white;
+		margin: 40px 0;
+
+		&:hover {
+			background-color: black;
+		}
 	}
 `
 
