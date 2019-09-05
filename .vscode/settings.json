@@ -1,9 +1,9 @@
 {
     "files.exclude": {
-        "**/.idea": true,
         "**/.next": true,
         "**/node_modules": true,
-        "**/.linaria-cache": true
+        "**/.linaria-cache": true,
+        "**/dist": true
     },
     "files.watcherExclude": {
         ".gitkeep": true
